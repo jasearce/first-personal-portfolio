@@ -6,6 +6,9 @@
   .about-containers{
     flex-wrap: wrap;
   }
+  #contact, #projects{
+    height: fit-content;
+  }
 }
 
 
@@ -18,7 +21,7 @@
     display: flex;
   }
   #experience, .experience-details-container{
-    margin-top: 2 rem;
+    margin-top: 2rem;
   }
   #profile, .section-container {
     display: block;
@@ -50,7 +53,7 @@
     height: 83vh;
     margin-bottom: 0;
   }
-  #article {
+  article {
     font-size: 1rem;
   }
   footer nav {
@@ -82,7 +85,7 @@
     height: 46vw;
     justify-content: center;
   }
-  .section__text_p2 {
+  .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
@@ -90,6 +93,5 @@
   }
   .text-container {
     text-align: justify;
-    padding: auto;
   }
 }
